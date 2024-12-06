@@ -32,5 +32,5 @@ s.reboot;
 (~projectPath ++ "synthdefs.scd").load;
 )
 // ~pinkTest.(~nChans, 0.5);
-// ~setup.play;
+~setup.play;
 ~main.play;
